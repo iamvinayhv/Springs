@@ -1,0 +1,14 @@
+package com.vinay;
+
+import org.springframework.beans.factory.BeanFactory;
+
+public class Student {
+
+	private String name;
+	private int age;
+	
+	public void displayInfo(){  
+	    System.out.println("Hello: "+name+" age:"+age);  
+	}  	
+	
+}

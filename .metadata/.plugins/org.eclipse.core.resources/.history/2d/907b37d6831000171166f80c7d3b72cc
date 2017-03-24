@@ -1,0 +1,4 @@
+<bean id="studentbean" class="com.vinay.Student">  
+<property name="name" value="Vimal Jaiswal"></property>
+<property name="age" value="22"></property> 
+</bean>
