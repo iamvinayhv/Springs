@@ -1,0 +1,25 @@
+package com.vinay;
+
+public class CarInsurence implements Insurence {
+
+	private int validity;
+	
+	
+	public int getValidity() {
+		return validity;
+	}
+
+
+	public void setValidity(int validity) {
+		this.validity = validity;
+	}
+
+
+	public void status()
+	{
+		System.out.println("Insured");
+		
+	}
+
+
+}

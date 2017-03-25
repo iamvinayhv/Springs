@@ -1,0 +1,7 @@
+package com.bridgelabz.vinay;
+
+public class Question {
+
+	private int id;
+	private String question;
+}

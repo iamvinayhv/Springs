@@ -1,0 +1,11 @@
+package com.vinay;
+
+public class CarInsurence {
+
+	@Override
+	public void status()
+	{
+		System.out.println("Insured");
+	}
+
+}

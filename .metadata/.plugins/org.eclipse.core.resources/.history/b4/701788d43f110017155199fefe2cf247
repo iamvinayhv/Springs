@@ -1,0 +1,7 @@
+package com.vinay;
+
+public class Question {
+
+	private String id;
+	private String question;
+}

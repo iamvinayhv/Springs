@@ -27,7 +27,7 @@ public class Employee {
 		this.address = address;
 	}
 	void show(){  
-	    System.out.println(id+" "+name);  
+	    System.out.println("id:"+id+" ,name:"+name);  
 	    System.out.println(address.toString());
 	}
 	

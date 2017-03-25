@@ -1,0 +1,21 @@
+package com.bridgelabz.vinay;
+
+public class Question {
+
+	private int id;
+	private String question;
+	private List<String> answers;
+	
+	
+	public Question() {	}
+
+
+	public Question(int id, String question) {
+		
+		this.id = id;
+		this.question = question;
+	}
+	
+	
+	
+}

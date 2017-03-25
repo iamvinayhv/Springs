@@ -1,0 +1,12 @@
+package com.vinay;
+
+public class Test2 {
+
+	private Question qw;
+	public Test2(Question qq) {
+
+		this.qq=qq;
+	}
+	
+	qq.
+}

@@ -1,0 +1,10 @@
+package com.vinay;
+
+public class Answers {
+
+	private int id;
+	private String answer;
+	private String by;
+	
+	
+}

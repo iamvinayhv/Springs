@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="ans1" class="com.vinay.Answers">
+	<constructor-arg name="id" value="1"></constructor-arg>
+	<constructor-arg name="answer" value="Programing language"></constructor-arg>
+	<constructor-arg name="by" value="Ramesh"></constructor-arg>
+	
+	</bean>
+	
+	<bean id="ans2" class="com.vinay.Answers">
+	<constructor-arg name="id" value="2"></constructor-arg>
+	<constructor-arg name="answer" value="Is an Island"></constructor-arg>
+	<constructor-arg name="by" value="Suresh"></constructor-arg>
+	
+	</bean>
+	
+	<bean id="que" class="com.vinay.Question">
+	<constructor-arg name="id" value="1"></constructor-arg>
+	<constructor-arg name="question" value="What is Java?"></constructor-arg>
+	<constructor-arg>
+	
+	<list>
+	<ref bean="ans1"/>
+	<ref bean="ans2"/>	
+	</list>
+	
+	</constructor-arg>
+	</bean>
+	<bean id="aa" class="com.vinay.Test2">
+	<constructor-arg>
+	<ref bean="que"/>
+	</constructor-arg>
+	</bean>
+	
+</beans>

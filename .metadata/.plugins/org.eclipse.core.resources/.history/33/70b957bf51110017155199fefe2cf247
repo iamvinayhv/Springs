@@ -1,0 +1,20 @@
+package com.vinay;
+
+import java.util.Map;
+
+public class Question {
+
+	private int id;
+	private String question;
+	private Map<User,Answer> answers;
+	
+	
+	public Question(int id, String question, Map<User, Answer> answers) {
+		super();
+		this.id = id;
+		this.question = question;
+		this.answers = answers;
+	}
+	
+	
+}

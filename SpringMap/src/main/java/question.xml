@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="que" class="com.vinay.Question">
+	<constructor-arg name="id" value="1"></constructor-arg>
+	<constructor-arg name="question" value="What is java?"></constructor-arg>
+	<constructor-arg>
+	<map>
+	<entry key="Programing lang" value="By Suresh"></entry>
+	<entry key="IsLand" value="By Varada"></entry>
+	</map>
+	</constructor-arg>
+	</bean>
+
+</beans>

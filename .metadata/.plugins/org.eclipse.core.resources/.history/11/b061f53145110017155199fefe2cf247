@@ -1,0 +1,10 @@
+package com.vinay;
+
+public class Test2 {
+
+	private Question qq;
+	public Test2(Question qq) {
+
+		
+	}
+}

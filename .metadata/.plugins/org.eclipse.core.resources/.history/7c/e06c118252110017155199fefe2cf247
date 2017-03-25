@@ -1,0 +1,12 @@
+package com.vinay;
+
+public class Answer {
+
+	private String answer;
+
+	public Answer(String answer) {
+		super();
+		this.answer = answer;
+	}
+	
+}

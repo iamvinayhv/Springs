@@ -1,0 +1,10 @@
+package com.vinay;
+
+public class CarInsurence {
+
+	public String status()
+	{
+		System.out.println("Insured");
+	}
+
+}
