@@ -1,0 +1,7 @@
+package com.vinay;
+
+public class Answer {
+
+	private int id;
+	private Map<String>answers;
+}

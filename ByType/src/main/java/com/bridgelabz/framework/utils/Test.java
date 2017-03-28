@@ -1,0 +1,17 @@
+package com.bridgelabz.framework.utils;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.bridgelabz.ByType.model.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("context.xml");
+		Employee emp=context.getBean(Employee.class);
+		emp.disp();
+	}
+
+}

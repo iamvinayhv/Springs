@@ -1,0 +1,21 @@
+package com.bridgeit.autowire.model;
+
+public class Capital {
+	 String countryName;
+	    Capital capital;
+	 
+	    @Autowired
+	    public Country(String countryName, Capital capital) {
+	 super();
+	 this.countryName = countryName;
+	 this.capital = capital;
+	    }
+	    public String getCountryName() {
+	        return countryName;
+	    }
+	    public void setCountryName(String countryName) {
+	        this.countryName = countryName;
+	    }
+	    public Capital getCapital() {
+	        return capital;
+}

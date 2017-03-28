@@ -1,0 +1,5 @@
+package com.bridgeit.autowire.model;
+
+public class Capital {
+
+}

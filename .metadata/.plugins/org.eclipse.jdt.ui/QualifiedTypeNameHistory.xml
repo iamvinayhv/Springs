@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.vinay.Employee"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.portable.ApplicationException"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.vinay.CarInsurence"/>
 <fullyQualifiedTypeName name="com.vinay.Insurence"/>
 <fullyQualifiedTypeName name="com.vinay.Validity"/>
+<fullyQualifiedTypeName name="com.vinay.App"/>
+<fullyQualifiedTypeName name="com.vinay.User"/>
+<fullyQualifiedTypeName name="com.vinay.Answer"/>
+<fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+<fullyQualifiedTypeName name="com.vinay.Employee"/>
+<fullyQualifiedTypeName name="com.vinay.Trial"/>
+<fullyQualifiedTypeName name="com.vinay.Question"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.text.spi.DecimalFormatSymbolsProvider"/>
+<fullyQualifiedTypeName name="com.bridgelabz.model.DemoA"/>
+<fullyQualifiedTypeName name="javax.naming.Context"/>
+<fullyQualifiedTypeName name="com.bridgelabz.ByName.model.Employee"/>
+<fullyQualifiedTypeName name="com.bridgelabz.ByType.model.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="com.bridgelabz.AutoWire.model.Employee"/>
+<fullyQualifiedTypeName name="com.bridgelabz.AutoWire.model.Address"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
 </qualifiedTypeNameHistroy>

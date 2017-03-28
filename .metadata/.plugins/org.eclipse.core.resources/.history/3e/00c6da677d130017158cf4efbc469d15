@@ -1,0 +1,5 @@
+package com.bridgelabz.AutoWire.model;
+
+public class Employee {
+
+}

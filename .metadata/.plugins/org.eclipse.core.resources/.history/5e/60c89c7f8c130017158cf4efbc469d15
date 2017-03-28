@@ -1,0 +1,21 @@
+package com.bridgelabz.framework.utils;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.bridgelabz.AutoWire.model.Address;
+import com.bridgelabz.AutoWire.model.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		@Autowired
+		Address address;
+		ApplicationContext context=new ClassPathXmlApplicationContext("context.xml");
+		Employee emp=context.getBean(Employee.class);
+		emp.display();
+
+	}
+
+}

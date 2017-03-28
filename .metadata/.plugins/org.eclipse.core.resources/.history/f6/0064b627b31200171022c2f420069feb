@@ -1,0 +1,12 @@
+package com.vinay;
+
+import java.util.List;
+
+public class Answer {
+
+	private int id;
+	private List <String>answers;
+	
+	
+	
+}

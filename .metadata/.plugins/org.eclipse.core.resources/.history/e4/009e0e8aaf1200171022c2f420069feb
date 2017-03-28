@@ -1,0 +1,11 @@
+package com.vinay;
+
+import java.util.Map;
+
+public class Question {
+
+	private int id;
+	private String question;
+	
+	private Map<User,Answer> answers;
+}

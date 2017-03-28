@@ -1,9 +1,2 @@
 INDEX VERSION 1.129+/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.jdt.core
-4065814350.index
-963973268.index
-973959239.index
-1316102146.index
-3527974461.index
-1446741185.index
-1658896717.index
-3491149217.index
+3761590754.index

@@ -44,8 +44,19 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Spring2"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/DItoSetterList"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Byname"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/ByName"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/AutowireByName"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/DItoSetterMap"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/DIbySetters"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringInheritence"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringMap2"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringMap"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Spring4"/>
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringDemo"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Insurence"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Spring2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -58,14 +69,33 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgelabz.AutoWire"/>
+			<item value="com.bridgelabz.ByType"/>
+			<item value="com.bridgelabz"/>
+			<item value="spring.ByName1"/>
 			<item value="com.vinay"/>
+			<item value="spring.SpringInheritence"/>
+			<item value="com.bridgelabz.vinay"/>
 		</list>
 		<list key="groupId">
 			<item value="spring"/>
 		</list>
 		<list key="artifactId">
+			<item value="AutoWireSetter"/>
+			<item value="ByType"/>
+			<item value="Byname"/>
+			<item value="ByName1"/>
+			<item value="ByName"/>
+			<item value="AutowireByName"/>
+			<item value="DItoSetterMap"/>
+			<item value="DItoSetterList"/>
+			<item value="DIbySetters"/>
+			<item value="SpringInheritence"/>
+			<item value="SpringMap2"/>
+			<item value="SpringMap"/>
+			<item value="Spring4"/>
+			<item value="Spring3"/>
 			<item value="Insurence"/>
-			<item value="Spring2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

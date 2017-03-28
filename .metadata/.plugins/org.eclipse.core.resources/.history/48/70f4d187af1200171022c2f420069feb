@@ -1,0 +1,9 @@
+package com.vinay;
+
+import java.util.Map;
+
+public class Answer {
+
+	private int id;
+	private String answers;
+}

@@ -1,0 +1,14 @@
+package com.bridgelabz.model;
+
+public class DemoA {
+
+	private DemoB b;
+	
+	public DemoA() {
+
+		System.out.println("DemoA created");
+	}
+	
+	
+	
+}

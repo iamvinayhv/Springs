@@ -1,0 +1,16 @@
+package com.vinay;
+
+public class Answer {
+
+	
+	private List<String> answers;
+	
+
+	public String getAnswer() {
+		return answers;
+	}
+	public void setAnswer(String answers) {
+		this.answers = answers;
+	}
+	
+}

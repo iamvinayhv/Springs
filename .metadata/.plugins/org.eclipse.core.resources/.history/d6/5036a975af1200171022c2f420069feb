@@ -1,0 +1,7 @@
+package com.vinay;
+
+public class User {
+
+	private String name;
+	
+}

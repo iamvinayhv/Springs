@@ -1,0 +1,8 @@
+package com.vinay;
+
+public class Address {
+
+	private String city;
+	private String country;
+	private long phone;
+}

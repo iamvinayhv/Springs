@@ -1,0 +1,10 @@
+package com.bridgelabz.AutoWire.model;
+
+public class Address {
+
+	private String city;
+	private String country;
+	private long phone;
+	
+	
+}

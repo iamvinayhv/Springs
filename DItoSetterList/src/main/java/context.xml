@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="ques" class="com.vinay.Question">
+	<property name="id" value="1"></property>
+	<property name="question" value="Who is Indal?"></property>
+	<property name="answers" ref="ans"></property>
+	
+	</bean>
+
+	<bean id="ans" class="com.vinay.Answer">
+	<property name="answers">
+	<list>
+	<value>Handsome Boy</value>
+	<value>Some times not possible to understand his language</value>
+	<value>Good boy???</value>
+	</list>
+	</property>
+	</bean>
+</beans>
