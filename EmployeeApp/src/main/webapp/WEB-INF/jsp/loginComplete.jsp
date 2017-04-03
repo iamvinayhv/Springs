@@ -12,16 +12,17 @@
 <h4>WelCome ${employee.name}</h4>
 
 
-<p>
 <h4  style="color:green;">Details</h4>
 
-Emp.ID:${employee.id}<br/>
-Name:${employee.name}<br/>
-Department:${employee.dept}<br/>
-E-mail ID:${employee.mail}<br/>
-Salary:${employee.salary}<br/>
+<table>
 
-</p>
+<tr><td>Emp.ID</td><td>${employee.id}</td></tr><br/>
+<tr><td>Name</td><td>${employee.name}</td></tr><br/>
+<tr><td>Department</td><td>${employee.dept}</td></tr><br/>
+<tr><td>E-mail ID</td><td>${employee.mail}</td></tr><br/>
+<tr><td>Salary</td><td>${employee.salary}</td></tr><br/>
+
+</table>
 
 <form action="users" method="get">
 
@@ -31,7 +32,7 @@ Salary:${employee.salary}<br/>
 <br/>
 <br/>
 
-<a href="settings.jsp">settings<a/><br/>
+<a href="changepassword.jsp">change Password</a>
 <a href="welcome.jsp">logout!!!</a>
 
 </body>

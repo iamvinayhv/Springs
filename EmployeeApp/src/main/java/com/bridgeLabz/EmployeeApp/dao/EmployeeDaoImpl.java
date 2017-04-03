@@ -95,7 +95,34 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		return users;
 	}
 
-	
+
+	@Override
+	public int changepassword(String mail, String newpassword) {
+		
+		Session session=sessionFactory.openSession();
+		Transaction transaction = null;
+		
+		try {
+			//String qry="update Employee set password =:newPassword where mail :=Email";
+			
+			transaction=session.beginTransaction();
+			Query query = session.createQuery("update Employee set password=:newPassword where mail=:Email");
+			query.setParameter("newPassword",newpassword );
+			query.setParameter("Email", mail);
+			int result=query.executeUpdate();
+			transaction.commit();
+			return result;
+		}
+		catch (Exception e) {
+			transaction.rollback();
+			return 0;
+		}
+		finally {
+			session.close();
+		}
+		
+	}
+
 
 	
 }

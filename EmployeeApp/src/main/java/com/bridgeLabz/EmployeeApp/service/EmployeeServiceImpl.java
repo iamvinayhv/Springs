@@ -38,4 +38,12 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return employeedao.users();
 	}
 
+
+	@Override
+	public int changePassword(String mail,String newpassword) {
+		
+		return employeedao.changepassword(mail,newpassword);
+		
+	}
+
 }

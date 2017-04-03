@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>update your details</title>
+<title>Password Changed SuccessFully</title>
 </head>
 <body>
+
+<a href="loginComplete.jsp">goto home page!!</a>
 
 </body>
 </html>

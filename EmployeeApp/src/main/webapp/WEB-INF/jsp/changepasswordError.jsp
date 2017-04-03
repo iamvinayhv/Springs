@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>update your details</title>
+<title>!!!!ERROR!!!!!</title>
 </head>
 <body>
+<h3 style="color:red;">Enter Your Email ID</h3>
+
+<a href="changepassword.jsp">try Again!!!</a>
 
 </body>
 </html>

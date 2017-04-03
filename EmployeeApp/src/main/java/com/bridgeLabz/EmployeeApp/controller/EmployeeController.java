@@ -42,7 +42,7 @@ public class EmployeeController {
 		
 	}
 
-	@RequestMapping(value="login")
+	@RequestMapping(value = "login")
 	public ModelAndView login(@RequestParam("mail") String mail, @RequestParam("password") String password) {
 
 			Employee employee = employeeService.authUser(mail, password);
@@ -60,7 +60,7 @@ public class EmployeeController {
 		
 	}
 	
-	@RequestMapping(value="users")
+	@RequestMapping(value = "users")
 	public ModelAndView users() {
 		
 		List users=employeeService.users();
@@ -78,9 +78,38 @@ public class EmployeeController {
 		
 	}
 	
-	@RequestMapping(value="update")
+	@RequestMapping(value = "update")
 	public ModelAndView update() {
 		return null;
+		
+	}
+	
+	@RequestMapping(value = "/changepassword")
+	public ModelAndView changePassword(@RequestParam("mail") String mail,@RequestParam("oldpassword") String oldpassword ,@RequestParam("newpassword") String newpassword, @RequestParam("reEnter") String reEnter) {
+		
+		if(newpassword.equals(reEnter)) {
+			System.out.println("hai");
+			
+			Employee employee=employeeService.authUser(mail,oldpassword);
+			
+			System.out.println("bteeee");
+			
+			if(employee != null) {
+				
+				int resul = employeeService.changePassword(mail,newpassword);
+				if(resul>0)
+					return new ModelAndView("passwordChanged");
+				else
+					return new ModelAndView("Error");
+			}
+			else {
+				return new ModelAndView("changepassword");
+			}
+			
+		}
+		else {
+			return new ModelAndView("passwordError");
+		}
 		
 	}
 }

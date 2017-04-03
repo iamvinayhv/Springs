@@ -12,11 +12,15 @@
 
 <form action="register" method="post">
 
-Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="name" placeholder="enter your name"><br/>
-Department:&nbsp<input type="text" name="dept" placeholder="enter your dept"><br/>
-Salary:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number" name="salary" placeholder="enter your salary"><br/>
-E-mail:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="mail" placeholder="enter your E-mail"><br/>
-Password:&nbsp&nbsp&nbsp&nbsp<input type="password" name="password" placeholder="enter password"><br/><br/>
+<table>
+
+<tr><td>Name:</td><td><input type="text" name="name" placeholder="enter your name"></td></tr><br/>
+<tr><td>Department:</td><td><input type="text" name="dept" placeholder="enter your dept"></td></tr><br/>
+<tr><td>Salary:</td><td><input type="number" name="salary" placeholder="enter your salary"></td></tr><br/>
+<tr><td>E-mail:</td><td><input type="text" name="mail" placeholder="enter your E-mail"></td></tr><br/>
+<tr><td>Password:</td><td><input type="password" name="password" placeholder="enter password"></td></tr><br/><br/>
+
+</table>
 
 <input align="left" type="submit" value="SignUp" style="color:gold; background-color:green" >
 

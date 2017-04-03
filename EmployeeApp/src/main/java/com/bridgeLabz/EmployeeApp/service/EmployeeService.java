@@ -13,4 +13,6 @@ public interface EmployeeService {
 	public Employee alreadyReg(String mail);
 
 	public List users();
+
+	public int changePassword(String mail, String newpassword);
 }

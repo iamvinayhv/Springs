@@ -14,4 +14,6 @@ public interface EmployeeDao {
 	public Employee alreadyReg(String mail);
 
 	public List users();
+
+	public int changepassword(String mail, String newpassword);
 }
