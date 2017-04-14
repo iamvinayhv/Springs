@@ -1,9 +1,0 @@
-package com.vinay;
-
-
-public class Answer {
-
-	private int id;
-	private List <String>answers;
-	
-}

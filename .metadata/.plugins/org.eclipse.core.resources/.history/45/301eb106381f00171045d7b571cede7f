@@ -1,0 +1,18 @@
+package com.bridgeLabz.RestControllerExample.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bridgeLabz.RestControllerExample.model.Student;
+
+public class StudentDao {
+
+	@Autowired
+	SessionFactory sessionFactory;
+	
+	public void saveStudent(Student student) {
+		
+		
+	}
+
+}

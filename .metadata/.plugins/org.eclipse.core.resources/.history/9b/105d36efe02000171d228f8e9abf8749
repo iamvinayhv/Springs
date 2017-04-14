@@ -1,0 +1,24 @@
+package com.bridgeLabz.LoginRegApp.productController;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.bridgeLabz.LoginRegApp.productModel.CustomerProduct;
+import com.bridgeLabz.LoginRegApp.productModel.Products;
+import com.bridgeLabz.LoginRegApp.productService.ProductService;
+
+@Controller
+public class ProductController {
+
+	@Autowired
+	private ProductService productService;
+	
+	public ResponseEntity<String> addProduct(@RequestBody Products products,@RequestBody CustomerProduct product) {
+		
+		
+		
+		boolean result = productService.addProduct(products);
+	}
+}

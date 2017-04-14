@@ -1,7 +1,0 @@
-package com.bridgelabz.ByName.model;
-
-public class ByName {
-
-	private int id;
-	
-}

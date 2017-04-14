@@ -1,6 +1,0 @@
-package com.bridgelabz.App;
-
-public class Country {
-
-	private String contName;
-}

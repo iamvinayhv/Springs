@@ -1,0 +1,9 @@
+package com.bridgeLabz.CustomerProduct.service;
+
+import com.bridgeLabz.CustomerProduct.model.Customar;
+
+public interface CustomerProductService {
+
+	boolean addDetails(Customar customer);
+
+}

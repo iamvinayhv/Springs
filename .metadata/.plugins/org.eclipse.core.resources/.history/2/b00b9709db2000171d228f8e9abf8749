@@ -1,0 +1,5 @@
+package com.bridgeLabz.LoginRegApp.productService;
+
+public interface ProductService {
+
+}

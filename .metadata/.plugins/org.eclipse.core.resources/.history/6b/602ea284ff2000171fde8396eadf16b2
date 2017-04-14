@@ -1,0 +1,5 @@
+package com.bridgeLabz.Details.service;
+
+public class ProductServiceImpl {
+
+}

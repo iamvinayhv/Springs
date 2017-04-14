@@ -1,0 +1,13 @@
+package com.bridgeLabz.Details.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bridgeLabz.Details.service.ProductService;
+
+@RestController
+public class ProductCountroller {
+
+	@Autowired
+	private ProductService productService;
+}

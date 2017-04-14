@@ -1,0 +1,5 @@
+package com.bridgeLabz.LoginRegApp.dao;
+
+public class CustomerLogDaoImpl implements CustomerLogDao {
+
+}

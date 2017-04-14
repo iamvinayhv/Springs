@@ -1,0 +1,17 @@
+package com.bridgeLabz.RestControllerExample.dao;
+
+import org.springframework.transaction.annotation.Transactional;
+
+import com.bridgeLabz.RestControllerExample.model.Employee;
+
+@Transactional
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	
+	
+	public void addEmployee(Employee employee) {
+		
+		
+	}
+
+}

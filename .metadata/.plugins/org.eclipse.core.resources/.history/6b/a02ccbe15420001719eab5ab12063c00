@@ -1,0 +1,9 @@
+package com.bridgeLabz.LoginRegApp.service;
+
+import com.bridgeLabz.LoginRegApp.model.Customer;
+
+public interface CustomerRegisterService {
+
+	boolean addCoust(Customer customer);
+
+}

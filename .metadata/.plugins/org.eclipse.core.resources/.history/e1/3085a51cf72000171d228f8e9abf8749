@@ -1,0 +1,32 @@
+package com.bridgeLabz.CustomerProduct.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bridgeLabz.CustomerProduct.model.Customar;
+import com.bridgeLabz.CustomerProduct.service.CustomerProductService;
+
+@RestController
+public class CustomerProductController {
+
+	@Autowired
+	private CustomerProductService custService;
+	
+	@RequestMapping(value="/add" , method=RequestMethod.POST)
+	public ResponseEntity<String> addDetails(@RequestBody Customar customer) {
+		
+		boolean result = custService.addDetails(customer);
+		
+		if(result) {
+			return new ResponseEntity<String>("Added" , HttpStatus.OK);
+		}
+		else {
+			return new ResponseEntity<String>("Not added" , HttpStatus.NOT_ACCEPTABLE);
+		}
+	}
+}

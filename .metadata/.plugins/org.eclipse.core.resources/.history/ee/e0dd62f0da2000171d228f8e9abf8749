@@ -1,0 +1,15 @@
+package com.bridgeLabz.LoginRegApp.productController;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.bridgeLabz.LoginRegApp.productModel.Products;
+
+@Controller
+public class ProductController {
+
+	public ResponseEntity<String> addProduct(@RequestBody Products products) {
+		
+	}
+}

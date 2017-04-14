@@ -1,0 +1,12 @@
+package com.bridgeLabz.LoginRegApp.service;
+
+import com.bridgeLabz.LoginRegApp.model.Customer;
+
+public class CustomerRegisterServiceImpl implements CustomerRegisterService {
+
+	public boolean addCoust(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

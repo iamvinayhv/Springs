@@ -1,0 +1,14 @@
+package com.bridgeLabz.LoginRegApp.productService;
+
+import com.bridgeLabz.LoginRegApp.productModel.Products;
+
+public class ProductServiceImpl implements ProductService {
+
+	@Override
+	public boolean addProduct(Products products) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+}

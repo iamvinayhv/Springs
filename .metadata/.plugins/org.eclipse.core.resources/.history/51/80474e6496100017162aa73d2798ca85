@@ -1,9 +1,0 @@
-package com.vinay;
-
-public class Employee {
-
-	private int id;
-	private String name;
-	Address address;
-	
-}

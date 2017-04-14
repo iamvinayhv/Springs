@@ -44,6 +44,11 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/RestControllerExample"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Emplyee"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SimpleSpringApp"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringDemo"/>
+			<item value="/home/bridgeit/vinay/JavaEclips/Springs/autowiringByAnnotation"/>
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/DItoSetterList"/>
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Byname"/>
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/ByName"/>
@@ -54,9 +59,6 @@
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringMap2"/>
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringMap"/>
 			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Spring4"/>
-			<item value="/home/bridgeit/vinay/JavaEclips/Springs/SpringDemo"/>
-			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Insurence"/>
-			<item value="/home/bridgeit/vinay/JavaEclips/Springs/Spring2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,6 +71,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgeLabz.LoginRegApp"/>
+			<item value="com.bridgelabz.SimpleSpringApp"/>
+			<item value="com.bridgelabz.SpringApp"/>
+			<item value="com.bridgelabz.framework"/>
 			<item value="com.bridgelabz.AutoWire"/>
 			<item value="com.bridgelabz.ByType"/>
 			<item value="com.bridgelabz"/>
@@ -78,9 +84,17 @@
 			<item value="com.bridgelabz.vinay"/>
 		</list>
 		<list key="groupId">
+			<item value="com.bridgeLabz"/>
 			<item value="spring"/>
+			<item value="sp"/>
 		</list>
 		<list key="artifactId">
+			<item value="LoginRegApp"/>
+			<item value="CountryApp"/>
+			<item value="Emplyee"/>
+			<item value="SpringApp"/>
+			<item value="SimpleSpringApp"/>
+			<item value="SimpleSpring"/>
 			<item value="AutoWireSetter"/>
 			<item value="ByType"/>
 			<item value="Byname"/>
@@ -90,12 +104,6 @@
 			<item value="DItoSetterMap"/>
 			<item value="DItoSetterList"/>
 			<item value="DIbySetters"/>
-			<item value="SpringInheritence"/>
-			<item value="SpringMap2"/>
-			<item value="SpringMap"/>
-			<item value="Spring4"/>
-			<item value="Spring3"/>
-			<item value="Insurence"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

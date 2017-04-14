@@ -1,0 +1,5 @@
+package com.bridgelabz.HiberApp.model;
+
+public class Employee {
+
+}

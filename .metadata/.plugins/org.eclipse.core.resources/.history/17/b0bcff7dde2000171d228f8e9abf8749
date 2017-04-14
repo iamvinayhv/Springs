@@ -1,0 +1,5 @@
+package com.bridgeLabz.LoginRegApp.productModel;
+
+public class CustomerProduct {
+
+}

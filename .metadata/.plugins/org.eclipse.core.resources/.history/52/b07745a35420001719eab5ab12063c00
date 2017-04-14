@@ -1,0 +1,19 @@
+package com.bridgeLabz.LoginRegApp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bridgeLabz.LoginRegApp.model.Customer;
+import com.bridgeLabz.LoginRegApp.service.CustomerRegisterService;
+
+@RestController
+public class CustomerRegisterController {
+
+	@Autowired
+	private CustomerRegisterService customerRegService;
+	
+	
+	public ResponseEntity<String> register(@RequestBody Customer customer)
+}

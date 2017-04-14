@@ -1,8 +1,0 @@
-package com.vinay;
-
-public class Trial {
-
-	private Employee employee;
-	private Address address;
-	
-}

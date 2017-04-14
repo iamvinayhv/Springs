@@ -1,0 +1,10 @@
+package com.bridgeLabz.LoginRegApp.productDao;
+
+import com.bridgeLabz.LoginRegApp.productModel.CustomerProduct;
+import com.bridgeLabz.LoginRegApp.productModel.Products;
+
+public interface ProductDao {
+
+	public boolean addProduct(CustomerProduct product);
+
+}

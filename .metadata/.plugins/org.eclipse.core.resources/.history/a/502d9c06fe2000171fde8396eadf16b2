@@ -1,0 +1,18 @@
+package com.bridgeLabz.Details.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name="Product_Info")
+public class Product {
+
+	@Id
+	@GenericGenerator(name="gen",strategy="increment")
+	private int id;
+	private String name;
+	private double price;
+}

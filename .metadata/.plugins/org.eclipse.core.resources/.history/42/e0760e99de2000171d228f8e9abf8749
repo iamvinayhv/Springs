@@ -1,0 +1,10 @@
+package com.bridgeLabz.LoginRegApp.productModel;
+
+import javax.persistence.Entity;
+
+@Entity
+public class CustomerProduct {
+
+	private String name;
+	private String email;
+}

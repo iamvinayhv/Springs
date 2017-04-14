@@ -1,0 +1,8 @@
+package com.bridgeLabz.CustomerProduct.model;
+
+public class Product {
+
+	private int id;
+	private String productName;
+	private double price;
+}

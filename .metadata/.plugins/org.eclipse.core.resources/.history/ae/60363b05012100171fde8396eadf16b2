@@ -1,0 +1,11 @@
+package com.bridgeLabz.Details.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bridgeLabz.Details.dao.ProductDaoImpl;
+
+public class ProductServiceImpl implements ProductService {
+
+	@Autowired
+	private ProductDaoImpl productDAO;
+}

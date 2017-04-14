@@ -1,0 +1,15 @@
+package com.bridgeLabz.RestControllerExample.service;
+
+import com.bridgeLabz.RestControllerExample.dao.EmployeeDAO;
+import com.bridgeLabz.RestControllerExample.model.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	private EmployeeDAO employeeDAO;
+	
+	public void addEmployee(Employee employee) {
+		
+		employeeDAO.addEmployee(employee);
+	}
+
+}

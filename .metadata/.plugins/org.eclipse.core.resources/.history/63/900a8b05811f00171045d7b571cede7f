@@ -1,0 +1,32 @@
+package com.bridgeLabz.RestControllerExample.dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.bridgeLabz.RestControllerExample.model.Employee;
+
+@Repository
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	public boolean addEmployee(Employee employee) {
+		
+		try {
+			Session session = sessionFactory.openSession();
+			Transaction transaction = session.beginTransaction();
+			session.save(employee);
+			transaction.commit();
+			return true;
+		}
+		catch(Exception e) {
+			return false;
+		}
+	}
+
+}

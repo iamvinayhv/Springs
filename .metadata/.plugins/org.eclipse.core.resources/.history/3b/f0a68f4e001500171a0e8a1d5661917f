@@ -1,0 +1,10 @@
+package com.bridgelabz.SpringApp3.controller;
+
+
+
+public class ServletController {
+	
+	public String home() {
+		return "home";
+	}
+}

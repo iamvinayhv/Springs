@@ -1,0 +1,22 @@
+package com.bridgeLabz.LoginRegApp.dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bridgeLabz.LoginRegApp.model.Customer;
+
+public class CustomerLogDaoImpl implements CustomerLogDao {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	public Customer login(String email, String password) {
+		
+		Session session = sessionFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+		return null;
+	}
+
+}

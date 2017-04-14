@@ -1,16 +1,17 @@
 package com.bridgelabz.Anotation;
 
-import org.springframework.beans.factory.annotation.Required;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emploee {
 
 	private int id;
 	private String name;
-	
+	@Autowired
 	private Address address;
 
 	
-	@Required
+	
 	public void setId(int id) {
 		this.id = id;
 	}

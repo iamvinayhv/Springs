@@ -1,0 +1,20 @@
+package com.bridgeLabz.RestControllerExample.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bridgeLabz.RestControllerExample.dao.StudentDao;
+
+@RestController
+public class StudentRestControlller {
+
+	@Autowired
+	StudentDao studentDao;
+	
+	@RequestMapping(value="request")
+	public ResponseEntity register() {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.bridgelabz.SpringApp3.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controlle
+public class ServletController {
+
+	
+	public String home() {
+		return "home";
+	}
+}

@@ -1,9 +1,0 @@
-package com.vinay;
-
-public class Triangle {
-
-	public void draw()
-	{
-		
-	}
-}

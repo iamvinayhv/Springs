@@ -1,8 +1,0 @@
-package com.vinay;
-
-public class Validity {
-
-	private int validity;
-	
-	
-}

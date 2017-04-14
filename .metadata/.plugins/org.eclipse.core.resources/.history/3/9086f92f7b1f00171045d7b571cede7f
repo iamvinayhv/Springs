@@ -1,0 +1,18 @@
+package com.bridgeLabz.RestControllerExample.service;
+
+import org.springframework.stereotype.Service;
+
+import com.bridgeLabz.RestControllerExample.dao.EmployeeDAO;
+import com.bridgeLabz.RestControllerExample.model.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+	private EmployeeDAO employeeDAO;
+	
+	public boolean addEmployee(Employee employee) {
+		
+		return employeeDAO.addEmployee(employee);
+	}
+
+}

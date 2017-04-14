@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;CustomerProduct&apos;&#x0A;- Original project: &apos;CustomerProduct&apos;&#x0A;- Original element: &apos;CustomerProduct/src/main/java/com.bridgeLabzCustomerProduct&apos;" description="Delete element" element1="/src\/main\/java&lt;com.bridgeLabzCustomerProduct" element2="/src\/main\/java&lt;com" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1492156258367" subPackages="false" version="1.0"/>
+</session>

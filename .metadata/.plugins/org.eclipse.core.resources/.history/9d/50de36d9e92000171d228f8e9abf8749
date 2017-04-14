@@ -1,0 +1,12 @@
+package com.bridgeLabz.CustomerProduct.dao;
+
+import com.bridgeLabz.CustomerProduct.model.Customar;
+
+public class CustomerProductDaoImpl implements CustomerProductDao {
+
+	public boolean addDetails(Customar customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.bridgeLabz.CustomerProduct.dao;
+
+import com.bridgeLabz.CustomerProduct.model.Customar;
+
+public interface CustomerProductDao {
+
+	boolean addDetails(Customar customer);
+
+}

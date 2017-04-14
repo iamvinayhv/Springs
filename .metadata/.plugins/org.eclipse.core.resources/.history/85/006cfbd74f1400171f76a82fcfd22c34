@@ -1,0 +1,16 @@
+package com.bridgelabz.HiberApp.dao;
+
+import org.springframework.orm.hibernate4.HibernateTemplate;
+
+public class EmployeeDAO {
+
+	HibernateTemplate template;
+	
+	public void setTemplete(HibernateTemplate template) {
+		this.template=template;
+	}
+	
+	public void save(Employee emp) {
+		
+	}
+}

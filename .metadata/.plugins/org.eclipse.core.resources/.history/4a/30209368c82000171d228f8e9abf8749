@@ -1,0 +1,12 @@
+package com.bridgeLabz.LoginRegApp.service;
+
+import com.bridgeLabz.LoginRegApp.model.Customer;
+
+public class CustomerLogServiceImpl implements CustomerLogService {
+
+	public Customer login(String string, String string2) {
+		
+		return null;
+	}
+
+}

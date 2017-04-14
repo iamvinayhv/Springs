@@ -1,0 +1,13 @@
+package com.bridgelabz.SpringApp3.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ServletController {
+
+	@Req
+	public String home() {
+		return "home";
+	}
+}

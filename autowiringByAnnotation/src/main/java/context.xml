@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
-	default-autowire="byType">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	 http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+                           http://www.springframework.org/schema/security">
 
 
 	<bean id="emp" class="com.bridgelabz.Anotation.Emploee">
 		
 	<property name="id" value="100"></property>
 	<property name="name" value="Indal kumar Yadav"></property>
+	<property name="address" ref="add" ></property>
 	</bean>
+	
 	<bean id="add" class="com.bridgelabz.Anotation.Address">
+		<qualifier value="auto"></qualifier>
 		<property name="city" value="Bihari"></property>
 		<property name="country" value="INDIA"></property>
 	</bean>
