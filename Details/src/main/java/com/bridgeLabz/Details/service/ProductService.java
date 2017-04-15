@@ -8,6 +8,6 @@ public interface ProductService {
 
 	public boolean addProduct(Customer customer);
 
-	public List getProduct(int id);
+	public Customer getProduct(int id);
 
 }

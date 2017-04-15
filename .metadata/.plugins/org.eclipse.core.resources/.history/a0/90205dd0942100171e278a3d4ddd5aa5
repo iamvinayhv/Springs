@@ -1,0 +1,15 @@
+package com.bridgeLabz.Details.dao;
+
+import java.util.List;
+
+import com.bridgeLabz.Details.model.Customer;
+import com.bridgeLabz.Details.model.Product;
+
+public interface ProductDao {
+
+	public boolean addProduct(Customer customer);
+
+	public Product getProduct(int id);
+	
+
+}

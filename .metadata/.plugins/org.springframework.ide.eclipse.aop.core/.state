@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="CountryApp"/>
 <aop-project name="Emplyee"/>
-<aop-project name="Details"/>
 <aop-project name="SpringApp"/>
 </aop-reference-model>

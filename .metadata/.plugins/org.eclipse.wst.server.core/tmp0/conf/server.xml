@@ -144,7 +144,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Details" path="/Details" reloadable="true" source="org.eclipse.jst.j2ee.server:Details"/></Host>
+      <Context docBase="/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Details" path="/Details" reloadable="true" source="org.eclipse.jst.j2ee.server:Details"/><Context docBase="/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RestControllerExample" path="/RestControllerExample" reloadable="true" source="org.eclipse.jst.j2ee.server:RestControllerExample"/><Context docBase="/home/bridgeit/vinay/JavaEclips/Springs/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/CountryApp" path="/CountryApp" reloadable="true" source="org.eclipse.jst.j2ee.server:CountryApp"/></Host>
     </Engine>
   </Service>
 </Server>

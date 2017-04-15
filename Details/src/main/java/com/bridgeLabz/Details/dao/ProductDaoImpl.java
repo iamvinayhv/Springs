@@ -1,7 +1,5 @@
 package com.bridgeLabz.Details.dao;
 
-import java.util.List;
-
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -35,20 +33,25 @@ public class ProductDaoImpl implements ProductDao {
 	}
 
 	@Override
-	public List getProduct(int id) {
-		
-		Session session = sessionFactory.openSession();
-		Transaction transaction = session.beginTransaction();
-		
-		String hql = "from Customer where id=:i";
-		
-		Query query =session.createQuery(hql);
-		query.setParameter("i", id);
-		List product = query.list();
-		transaction.commit();
-		session.close();
-		
-		return product;
+	public Customer getProduct(int id) {
+		try {
+			Session session = sessionFactory.openSession();
+			Transaction transaction = session.beginTransaction();
+			
+			String hql = "from Customer where id=:i";
+			
+			Query query =session.createQuery(hql);
+			query.setParameter("i", id);
+			Customer productList = (Customer) query.uniqueResult();
+			transaction.commit();
+			session.close();
+			
+			return productList;
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 }

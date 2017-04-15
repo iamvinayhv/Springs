@@ -18,7 +18,7 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public List getProduct(int id) {
+	public Customer getProduct(int id) {
 		
 		return productDAO.getProduct(id);
 	}
